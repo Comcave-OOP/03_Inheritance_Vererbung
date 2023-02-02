@@ -1,12 +1,12 @@
 package com.cc.java;
 
-public class Tomcat {
+public class TomCat {
 
   private String name;
   private String furColor;
   private int age; 
 
-public Tomcat(String name, String furColor, int age) {
+public TomCat(String name, String furColor, int age) {
     this.name = name;
     this.furColor = furColor;
     this.age = age;

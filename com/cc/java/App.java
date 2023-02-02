@@ -19,7 +19,7 @@ public class App {
 
         output("-------------------------");
 
-        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35);
+        TomCat tomcat = new TomCat("Alonzo", "grey", 35);
 
         output(tomcat.getStringAttributes("#name"));
         output(tomcat.getStringAttributes("#color"));
